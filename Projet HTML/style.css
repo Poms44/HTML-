@@ -202,7 +202,7 @@ section.accueil {
 	background-color: rgb(255, 255, 255);
 	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
 }
-.spontanee {
+.question {
 	position: relative;
 	text-align: center;
 	padding: 20px;
@@ -210,7 +210,7 @@ section.accueil {
 	/* Text color for better visibility on the image */
 	margin-top: 90px;
 }
-.spontanee::before {
+.question::before {
 	content: "";
 	position: absolute;
 	top: 0;
@@ -221,12 +221,12 @@ section.accueil {
 	border-radius: 20px;
 	/* Ensure rounded corners match the main container */
 }
-.spontanee h1 {
+.question h1 {
 	font-size: 28px;
 	color: #fff;
 	/* Text color for better visibility on the image */
 }
-.spontanee form {
+.question form {
 	max-width: 400px;
 	margin: 20px auto;
 	padding: 20px;
@@ -239,12 +239,12 @@ section.accueil {
 	z-index: 1;
 	/* Place the form above the overlay */
 }
-.spontanee label {
+.question label {
 	display: block;
 	margin-bottom: 8px;
 	color: #333;
 }
-.spontanee input, .spontanee textarea {
+.question input, .question textarea {
 	width: 100%;
 	padding: 10px;
 	margin-bottom: 16px;
@@ -252,7 +252,7 @@ section.accueil {
 	border: 1px solid #ccc;
 	border-radius: 4px;
 }
-.spontanee button {
+.question button {
 	background-color: black;
 	color: #fff;
 	padding: 10px 20px;
@@ -260,7 +260,7 @@ section.accueil {
 	border-radius: 4px;
 	cursor: pointer;
 }
-.spontanee button:hover {
+.question button:hover {
 	background-color: #45a049;
 }
 .en-tete-form {
